@@ -1,0 +1,93 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int count = 0;
+    for(int i=1;i<=5;i++)
+    {
+        for(int j=1;j<=5;j++)
+        {
+            cout<<"Hello";
+            count++;
+            cout<<endl;
+        }
+    }
+    cout<<count<<endl;
+    return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    // int sum = 0;
+    // int N;
+    // cout<<" Enter Number N";
+    // cin>>N;
+    // for(int i = 0; i <= N;i++)
+    // {
+    //     sum= sum + i;
+    // }
+    // cout<<sum<<endl;
+
+    int arr[] = {9,10,7,0,2};
+    int N = sizeof(arr) / sizeof(arr[0]);
+    int sum = 0;
+    for(int i=0;i<N;i++)
+    {
+        sum = sum + arr[i];
+    }
+    cout<<sum<<endl;
+
+    return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    string name = "amit kasabe";
+    int l = name.length();
+
+    for(int i = 0; i < l; i++){
+        // if(name[i])
+       if(name[i] == ' '){
+            name[i] = '-';
+       }
+      
+    }
+    cout<<name;
+    return 0;
+}
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    // string names[] = {"amit" , "shruti" , "sonal" , "swarali" , "Glynn" , "Lyn"};
+    int n , m;
+    cout<<"Enter n";
+    cin>>n;
+    cout<<"Enter m";
+    cin>>m;
+    for(int i=1;i<=m;i++)
+    {
+        for(int j=m;j<=n;j++)
+        {
+            cout<<" * ";
+        }
+        cout<<endl;
+    }
+
+    // * * * 
+    // * * *
+    // * * *   
+    /*
+    * * * * * * * * * 
+    
+    
+    
+    */
+
+}
